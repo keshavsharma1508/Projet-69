@@ -1,0 +1,56 @@
+html{
+    scroll-behavior: smooth;
+}
+map iframe{
+    width: 50%;
+    float: left;
+    padding top: 5px;
+}
+contact_1 h3{
+    display: inline;
+}
+contact_1 a {
+    text-shadow: none;
+}
+#footer{
+    height: 20px;
+    background-color: white;
+}
+input{
+    background:grey;
+}
+.announcement{
+    background-color: #337ab7;
+    width: 100%;
+    height : 30px;
+}
+marquee{
+    width: 100%;
+    direction: right;
+    height: 100px;
+    color: beige;
+    font-size:210%;
+}
+image{
+    width: 100%;
+    height: 50px;
+    border: none;
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.travel_mainDiv{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    border: 1px solid #c7c7c7;
+}
+.travel_mainDiv image{
+width: 100%;
+    height: 300%;
+}
+.travel_mainDiv hr{
+    width: 100%;
+}
